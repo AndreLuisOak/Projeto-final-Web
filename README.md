@@ -1,6 +1,6 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: Sistema de notas
 
-Breve descrição do que o seu projeto faz.
+Sistema busca auxiliar por meio de uma aplicação web um sistema de notas que permita adicionar,visualizar, editar e excluí notas.
 
 ## :technologist: Membros da equipe
 
