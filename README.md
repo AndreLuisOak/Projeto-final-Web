@@ -1,24 +1,33 @@
-# :checkered_flag: Mynotes
+# :checkered_flag: MyNotes
 
-Sistema busca auxiliar por meio de uma aplicação web um sistema de bloco de notas que permita adicionar,visualizar, editar e excluí notas.
+Sistema busca criar uma aplicação web um sistema de bloco de notas que permita adicionar,visualizar, editar e excluí notas.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+André Luis Carvalho da Silva - 474137 Engenharia de software Lucas André Pacheco de Oliveira - 475597 Ciência de computação 
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
+Usuário com login.
 
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
+
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+Interface de usuário para adicionar, visualizar, editar e excluir notas: O sistema deve fornecer uma interface de usuário intuitiva e fácil de usar para permitir aos usuários adicionar, visualizar, editar e excluir notas.
+
+Capacidade de armazenar notas: O sistema deve ser capaz de armazenar as notas adicionadas pelos usuários em uma estrutura de dados, como um array ou um objeto, para que as notas possam ser persistidas e recuperadas mesmo após o fechamento do aplicativo.
+
+Funcionalidade de pesquisa e filtro de notas: O sistema pode fornecer uma funcionalidade de pesquisa e filtro para permitir aos usuários encontrar notas específicas com base em palavras-chave, tags ou outras categorias relevantes.
+
+Gerenciamento de usuário, os usuários deve poder se cadastrar e acessar as notas de qualquer lugar, deve possuir uma conta adm que pode remover usuários cadastrados
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+Salva notas,exibir e organizar notas do usuário.
+Adicionar usuário.
+Gerenciar usuários.
+Interface intuitiva.
 
 
 ----
