@@ -1,6 +1,6 @@
-# :checkered_flag: Sistema de notas
+# :checkered_flag: Mynotes
 
-Sistema busca auxiliar por meio de uma aplicação web um sistema de notas que permita adicionar,visualizar, editar e excluí notas.
+Sistema busca auxiliar por meio de uma aplicação web um sistema de bloco de notas que permita adicionar,visualizar, editar e excluí notas.
 
 ## :technologist: Membros da equipe
 
