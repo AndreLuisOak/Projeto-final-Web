@@ -1,6 +1,5 @@
-# :checkered_flag: MyNotes
-
-Sistema busca criar uma aplicação web um sistema de bloco de notas que permita adicionar,visualizar, editar e excluí notas.
+# :checkered_flag: Catálogo de filmes
+Aplicação Web com o intuito de criar uma biblioteca virtual de fornecimento de filmes, onde podem pesquisar, visualizar, comentar e avaliar filmes disponíveis no catálogo.
 
 ## :technologist: Membros da equipe
 
@@ -9,26 +8,21 @@ André Luis Carvalho da Silva - 474137 Engenharia de software Lucas André Pache
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
 Usuário com login.
-
+Usuário admin.
 
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
-
-Interface de usuário para adicionar, visualizar, editar e excluir notas: O sistema deve fornecer uma interface de usuário intuitiva e fácil de usar para permitir aos usuários adicionar, visualizar, editar e excluir notas.
-
-Capacidade de armazenar notas: O sistema deve ser capaz de armazenar as notas adicionadas pelos usuários em uma estrutura de dados, como um array ou um objeto, para que as notas possam ser persistidas e recuperadas mesmo após o fechamento do aplicativo.
-
-Funcionalidade de pesquisa e filtro de notas: O sistema pode fornecer uma funcionalidade de pesquisa e filtro para permitir aos usuários encontrar notas específicas com base em palavras-chave, tags ou outras categorias relevantes.
-
-Gerenciamento de usuário, os usuários deve poder se cadastrar e acessar as notas de qualquer lugar, deve possuir uma conta adm que pode remover usuários cadastrados
+Interface de usuário para visualizar e pesquisar filmes: O sistema deve fornecer uma interface de usuário amigável que permita aos usuários visualizar filmes em um catálogo, pesquisar filmes com base em diferentes critérios, como título, gênero, atores, diretor, etc.
+Funcionalidade de avaliação e classificação de filmes: O sistema pode permitir aos usuários avaliar e classificar os filmes que assistiram, bem como visual
+Cadastro de usuário: para que posso ser evetuado o login e assim o usuário pode ter acesso ao catálogo disponível além das funcionalidades de avaliação e comentários.
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
-
-Salva notas,exibir e organizar notas do usuário.
-Adicionar usuário.
-Gerenciar usuários.
-Interface intuitiva.
-
+Cadastrar usuários.
+Classificar filmes.
+Avaliar filmes.
+Comentar sobre os filmes.
+Admins podem fazer upload e alterar informações a respeito dos filmes.
+Reprodução de filmes.
 
 ----
 
