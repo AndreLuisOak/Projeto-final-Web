@@ -1,60 +1,18 @@
-# :checkered_flag: Site de anúncios 
-Site para fazer ver e fazer anúncios online.
+# Vue 3 + TypeScript + Vite
 
-## :technologist: Membros da equipe
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-André Luis Carvalho da Silva - 474137 Engenharia de software Lucas André Pacheco de Oliveira - 475597 Ciência de computação 
+## Recommended IDE Setup
 
-## :people_holding_hands: Papéis ou tipos de usuário da aplicação
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-Usuário público.
-Usuário com login.
-Usuário admin.
+## Type Support For `.vue` Imports in TS
 
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-## :spiral_calendar: Entidades ou tabelas do sistema
-Usuários que poderiam criar anúncios.
-Anúncios disponíveis para a visualização.
-Comentários que usuário logados poderiam deixar nos anúncios.
-Administradores podem excluir anúncios e banir usuários.
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
-Cadastrar usuários.
-Criar anúncios.
-Comentários disponíveis nos anúncios.
-
-----
-
-:warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
-
-
-----
-
-## :desktop_computer: Tecnologias e frameworks utilizados
-
-**Frontend:**
-
-Lista as tecnologias, frameworks e bibliotecas utilizados.
-
-**Backend:**
-
-Lista as tecnologias, frameworks e bibliotecas utilizados.
-
-
-## :shipit: Operações implementadas para cada entidade da aplicação
-
-
-| Entidade| Criação | Leitura | Atualização | Remoção |
-| --- | --- | --- | --- | --- |
-| Entidade 1 | X |  X  |  | X |
-| Entidade 2 | X |    |  X | X |
-| Entidade 3 | X |    |  |  |
-
-> Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
-
-## :neckbeard: Rotas da API REST utilizadas
-
-| Método HTTP | URL |
-| --- | --- |
-| GET | api/entidade1/|
-| POST | api/entidade2 |
+1. Disable the built-in TypeScript Extension
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
